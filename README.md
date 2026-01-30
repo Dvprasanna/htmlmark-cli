@@ -29,3 +29,50 @@ This helps developers:
     <p>Hello</p>
   </section>
 </div>
+
+Output
+### output
+<!-- 1 -->
+<div>
+
+  <!-- 1.1 -->
+  <header>
+    <h1>Title</h1>
+  </header>
+
+  <!-- 1.2 -->
+  <section>
+    <p>Hello</p>
+  </section>
+
+</div>
+
+Numbering Rules
+	•	Top-level blocks: 1, 2, 3
+	•	Nested blocks: 1.1, 1.2
+	•	Deeper nesting: 1.2.1
+	•	Inline tags are ignored
+	•	HTML output remains valid
+
+Usage
+
+Paste HTML directly
+htmlmark
+# paste html
+# press CTRL + D
+
+From a file
+htmlmark < input.html > output.html
+  
+Planned Support
+	•	CSS block numbering
+	•	JavaScript block numbering
+  
+GitHub Copilot Usage
+
+GitHub Copilot was used to assist with:
+	•	CLI scaffolding
+	•	Block detection logic
+	•	Nested numbering approach
+
+All generated code was reviewed and adjusted manually.
