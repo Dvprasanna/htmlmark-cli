@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/env node 
 
 // htmlmark-cli
 // Adds numbered comment blocks to HTML
