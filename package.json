@@ -1,0 +1,17 @@
+{
+  "name": "htmlmark-cli",
+  "version": "1.0.0",
+  "description": "CLI tool to add numbered comment blocks to HTML",
+  "main": "index.js",
+  "bin": {
+    "htmlmark": "./index.js"
+  },
+  "keywords": [
+    "cli",
+    "html",
+    "developer-tools",
+    "productivity"
+  ],
+  "author": "Dvprasanna",
+  "license": "MIT"
+}
